@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0">
+<testcase classname="Login Feature" name="Valid Input" time="0">
+<system-out><![CDATA[Given I get access to the Homepage..........................................skipped
+And I click on user profile.................................................skipped
+When I input the username as "natarajan.ramanathan93@gmail.com".............skipped
+And I input the password as "Welcome123"....................................skipped
+And I click on login........................................................skipped
+Then I should get the ID as "ID: MAG003417822"..............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Invalid Input" time="0">
+<system-out><![CDATA[Given I get access to the Homepage..........................................skipped
+And I click on user profile.................................................skipped
+When I input the username as "natarajan.ramanathan93@gmail.com".............skipped
+And I input the password as "welcome123"....................................skipped
+And I click on login........................................................skipped
+Then I should get the error message as "Invalid login or password.".........skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Invalid Input 2" time="0">
+<system-out><![CDATA[Given I get access to the Homepage..........................................skipped
+And I click on user profile.................................................skipped
+When I input the username as "natarajan@gmail.com"..........................skipped
+And I input the password as "Welcome123"....................................skipped
+And I click on login........................................................skipped
+Then I should get the error message as "Invalid login or password.".........skipped
+]]></system-out>
+</testcase>
+</testsuite>

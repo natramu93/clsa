@@ -1,0 +1,342 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Valid Input",
+        "description": "",
+        "id": "login-feature;valid-input",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I get access to the Homepage",
+            "match": {
+              "location": "StepDefn.i_get_access_to_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click on user profile",
+            "match": {
+              "location": "StepDefn.i_click_on_user_profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I input the username as \"natarajan.ramanathan93@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natarajan.ramanathan93@gmail.com",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefn.i_input_the_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I input the password as \"Welcome123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome123",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefn.i_input_the_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I click on login",
+            "match": {
+              "location": "StepDefn.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should get the ID as \"ID: MAG003417822\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ID: MAG003417822",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefn.i_should_get_the_ID(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@smoke"
+          },
+          {
+            "line": 6,
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Invalid Input",
+        "description": "",
+        "id": "login-feature;invalid-input;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I get access to the Homepage",
+            "match": {
+              "location": "StepDefn.i_get_access_to_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click on user profile",
+            "match": {
+              "location": "StepDefn.i_click_on_user_profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I input the username as \"natarajan.ramanathan93@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natarajan.ramanathan93@gmail.com",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefn.i_input_the_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I input the password as \"welcome123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "welcome123",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefn.i_input_the_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I click on login",
+            "match": {
+              "location": "StepDefn.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I should get the error message as \"Invalid login or password.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid login or password.",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefn.i_should_get_the_error_message_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 14,
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Invalid Input",
+        "description": "",
+        "id": "login-feature;invalid-input;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I get access to the Homepage",
+            "match": {
+              "location": "StepDefn.i_get_access_to_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click on user profile",
+            "match": {
+              "location": "StepDefn.i_click_on_user_profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I input the username as \"natarajan@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natarajan@gmail.com",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefn.i_input_the_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I input the password as \"Welcome123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome123",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefn.i_input_the_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I click on login",
+            "match": {
+              "location": "StepDefn.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I should get the error message as \"Invalid login or password.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid login or password.",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefn.i_should_get_the_error_message_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 14,
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "This is a feature to test on valid and invalid inputs for username and password\r\n1. Valid input - natarajan.ramanathan93@gmail.com, Welcome123\r\n2. Invalid Input - test@testmail.com, Test123",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "Test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
